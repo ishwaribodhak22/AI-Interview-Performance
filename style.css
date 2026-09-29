@@ -1,0 +1,90 @@
+/* ===========================
+   Background
+=========================== */
+.stApp{
+    background: linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color: white;
+}
+
+/* ===========================
+   Headings
+=========================== */
+h1,h2,h3,h4,h5,h6{
+    color:#38bdf8 !important;
+}
+
+/* ===========================
+   Normal Text
+=========================== */
+p, label, span, div{
+    color:white !important;
+}
+
+/* ===========================
+   Text Area
+=========================== */
+textarea{
+    background:#1e293b !important;
+    color:white !important;
+    border-radius:15px !important;
+    border:2px solid #38bdf8 !important;
+}
+
+/* Placeholder */
+textarea::placeholder{
+    color:#cbd5e1 !important;
+}
+
+/* ===========================
+   Button
+=========================== */
+.stButton>button{
+    width:100%;
+    background:linear-gradient(90deg,#2563eb,#7c3aed);
+    color:white;
+    border:none;
+    border-radius:12px;
+    height:55px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.stButton>button:hover{
+    background:linear-gradient(90deg,#7c3aed,#2563eb);
+}
+
+/* ===========================
+   Metric Cards
+=========================== */
+[data-testid="stMetric"]{
+    background:#1e293b;
+    border:1px solid #38bdf8;
+    border-radius:15px;
+    padding:20px;
+}
+
+/* Metric Label */
+[data-testid="stMetricLabel"]{
+    color:white !important;
+}
+
+/* Metric Value */
+[data-testid="stMetricValue"]{
+    color:#38bdf8 !important;
+    font-size:34px !important;
+    font-weight:bold;
+}
+
+/* ===========================
+   Divider
+=========================== */
+hr{
+    border:1px solid #334155;
+}
+
+/* ===========================
+   Success / Warning / Error
+=========================== */
+[data-testid="stAlert"]{
+    color:white !important;
+}
